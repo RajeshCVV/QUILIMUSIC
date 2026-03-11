@@ -126,7 +126,7 @@ app.get('/api/seed', async (req, res) => {
 
   // Add initial students
   const s1 = await Student.create({
-    name: Mateo Valencia,
+    name: 'Mateo Valencia',
     photo: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400',
     age: 14,
     skills: ['Oído absoluto', 'Lectura rítmica'],
